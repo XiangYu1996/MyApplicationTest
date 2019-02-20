@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus_pc.listview.MainActivity">
+
+    <Button
+        android:id="@+id/list_view_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_list_view_btn"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/grid_view_button"
+        style="@style/CustomTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list_view_button"
+        android:text="@string/main_grid_view_btn" />
+
+    <Button
+        android:id="@+id/grid_view_button_test"
+        style="@style/StudyTextView"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list_view_button"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/grid_view_button"
+        android:text="style测试" />
+
+    <Button
+        android:id="@+id/test_view_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/grid_view_button"
+        android:text="点击进入自定义按钮"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragment_button"
+        android:layout_below="@+id/test_view_button"
+        android:text="fragment_button"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/handler_button"
+        android:layout_below="@+id/fragment_button"
+        android:text="handler_button"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/music_button"
+        android:layout_below="@+id/handler_button"
+        android:text="music_button"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/broadcast_button"
+        android:layout_below="@+id/music_button"
+        android:text="broadcast_button"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/web_view_button"
+        android:layout_below="@+id/broadcast_button"
+        android:text="web_view_button"/>
+
+    <ScrollView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/web_view_button">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="ScrollView中的Button可垂直滚动"
+                android:textSize="16sp" />
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="ScrollView中的Button可垂直滚动"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

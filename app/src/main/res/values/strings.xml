@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ListView</string>
+    <string name="splash_text">欢迎使用</string>
+    <string name="friend_circle">条数</string>
+    <string name="main_list_view_btn">点击进入ListView列表</string>
+    <string name="main_grid_view_btn">点击进入GrideView列表</string>
+    <string name="handler_text_view_text">Handler</string>
+</resources>
